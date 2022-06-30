@@ -17,13 +17,12 @@
     "declaration": true,
     "declarationDir": "./dist",
     "outDir": "./dist",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@app": ["./"],
-      "@app/*": ["./*"]
+      "@/*": ["src/*"]
     },
     "typeRoots": ["./node_modules/@types"]
   },
   "exclude": ["./node_modules", "./dist"],
-  "include": ["src"]
+  "include": ["src", "test"]
 }

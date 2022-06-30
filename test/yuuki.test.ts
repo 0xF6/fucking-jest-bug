@@ -1,4 +1,4 @@
-import { sum } from '@app/yuuki'
+import { sum } from '@/yuuki'
 
 describe('yuuki', () => {
   it('should suck dick', () => {

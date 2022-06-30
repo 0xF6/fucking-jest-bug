@@ -7,4 +7,5 @@ module.exports = {
   passWithNoTests: true,
   snapshotSerializers: ['jest-serializer-path'],
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
+  testMatch: ['<rootDir>/src/**/*.test.ts'],
 }

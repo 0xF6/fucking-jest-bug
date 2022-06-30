@@ -19,8 +19,8 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "paths": {
-      "@": ["./"],
-      "@/*": ["./*"]
+      "@app": ["./"],
+      "@app/*": ["./*"]
     },
     "typeRoots": ["./node_modules/@types"]
   },
